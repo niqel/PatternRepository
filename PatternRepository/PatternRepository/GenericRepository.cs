@@ -1,5 +1,4 @@
-﻿using PatternRepository.Interfaces;
-using System;
+﻿using System;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace PatternRepository
 {
-    public class GenericRepository<TEntity>
-     where TEntity : class
+    public class GenericRepository<TEntity> where TEntity : class
     {
-
         //private readonly IDbContext dbContext;
-        private readonly DbContext dbContext;
-        private readonly DbSet<TEntity> dbSet;
+        protected readonly DbContext dbContext;
+        protected readonly DbSet<TEntity> dbSet;
 
         public GenericRepository(DbContext dbContext)
         {
@@ -41,19 +38,16 @@ namespace PatternRepository
         {
             return await this.FindAsync(id); 
         }
-
         public TEntity Find(object id)
         {
             return dbSet.Find(id);
         }
-
         public void Update(TEntity entity)
         {
             dbSet.Attach(entity);
             dbContext.Entry(entity).State = EntityState.Modified;
+            dbContext.Update(entity);
         }
-
-
         public void Update(object id, TEntity entity)
         {
             TEntity returnedEntity = this.Find(id);
@@ -73,7 +67,6 @@ namespace PatternRepository
             }
             dbSet.Remove(entity);
         }
-
         public void Delete(int id)
         {
             TEntity entity = this.Find(id);
