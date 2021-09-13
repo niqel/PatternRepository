@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PatternRepository.AbstractClass;
-using PatternRepository.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

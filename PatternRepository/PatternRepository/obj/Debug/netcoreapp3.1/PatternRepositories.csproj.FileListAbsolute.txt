@@ -1,0 +1,10 @@
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\obj\Debug\netcoreapp3.1\PatternRepositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\obj\Debug\netcoreapp3.1\PatternRepositories.AssemblyInfoInputs.cache
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\obj\Debug\netcoreapp3.1\PatternRepositories.AssemblyInfo.cs
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\obj\Debug\netcoreapp3.1\PatternRepositories.csproj.CoreCompileInputs.cache
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\bin\Debug\netcoreapp3.1\PatternRepositories.deps.json
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\bin\Debug\netcoreapp3.1\PatternRepositories.dll
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\bin\Debug\netcoreapp3.1\PatternRepositories.pdb
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\obj\Debug\netcoreapp3.1\PatternRepositories.dll
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\obj\Debug\netcoreapp3.1\PatternRepositories.pdb
+C:\Users\niqel\source\repos\PatternRepository\PatternRepository\PatternRepository\obj\Debug\netcoreapp3.1\PatternRepositories.csproj.AssemblyReference.cache
