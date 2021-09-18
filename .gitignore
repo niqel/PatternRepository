@@ -18,3 +18,11 @@ PatternRepository/PatternRepository/obj/PatternRepository.csproj.nuget.dgspec.js
 PatternRepository/PatternRepository/obj/Debug/netcoreapp3.1/PatternRepository.pdb
 PatternRepository/PatternRepository/obj/Debug/netcoreapp3.1/PatternRepository.GeneratedMSBuildEditorConfig.editorconfig
 PatternRepository/PatternRepository/obj/Debug/netcoreapp3.1/PatternRepository.dll
+*.v2
+PatternRepository/.vs/PatternRepository/DesignTimeBuild/.dtbcache.v2
+PatternRepository/.vs/PatternRepository/v17/.futdcache.v1
+PatternRepository/PatternRepository/bin/Debug/netcoreapp3.1/PatternRepositories.dll
+PatternRepository/PatternRepository/bin/Debug/netcoreapp3.1/PatternRepositories.pdb
+PatternRepository/PatternRepository/obj/Debug/netcoreapp3.1/PatternRepositories.csproj.CoreCompileInputs.cache
+PatternRepository/PatternRepository/obj/Debug/netcoreapp3.1/PatternRepositories.dll
+PatternRepository/PatternRepository/obj/Debug/netcoreapp3.1/PatternRepositories.pdb

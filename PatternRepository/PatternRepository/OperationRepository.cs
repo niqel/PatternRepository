@@ -14,9 +14,9 @@ namespace PatternRepository
 
         }
 
-        public IQueryable<TEntity> FindByIdStatus(int idStatus)
+        public IQueryable<TEntity> FindByIdStatus(int statusId)
         {
-            return this.dbSet.Where(x => x.IdStatus == idStatus);
+            return this.dbSet.Where(x => x.StatusId == statusId);
         }
     }
 }
