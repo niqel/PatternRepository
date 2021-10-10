@@ -8,7 +8,6 @@ namespace PatternRepository
 {
     public class GenericRepository<TEntity> where TEntity : class
     {
-        //private readonly IDbContext dbContext;
         protected readonly DbContext dbContext;
         protected readonly DbSet<TEntity> dbSet;
 

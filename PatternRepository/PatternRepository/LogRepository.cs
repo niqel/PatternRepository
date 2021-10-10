@@ -17,10 +17,5 @@ namespace PatternRepository
         {
             return this.dbSet.Where(x => x.StatusId == statusId);
         }
-
-        public IQueryable<TEntity> FindByForeignId(int foreignId)
-        {
-            return this.dbSet.Where(x => x.ForeignId == foreignId);
-        }
     }
 }

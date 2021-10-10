@@ -13,8 +13,6 @@ namespace PatternRepository
         { 
         }
 
-        
-
         public IQueryable<TEntity> FindByActive(bool active)
         {
             return this.dbSet.Where(x => x.Active == active);

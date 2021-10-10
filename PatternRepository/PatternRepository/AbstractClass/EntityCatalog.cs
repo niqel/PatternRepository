@@ -9,6 +9,6 @@ namespace PatternRepository.AbstractClass
         public abstract bool Active { get; set; }
         public abstract string Code {  get; set; }  
         public abstract string Name {  get; set; }  
-        public string Description {  get; set; }   
+        public abstract string Description {  get; set; }   
     }
 }
